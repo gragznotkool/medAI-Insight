@@ -5,3 +5,4 @@ torch
 pydantic
 shap
 sqlalchemy
+python-dotenv
