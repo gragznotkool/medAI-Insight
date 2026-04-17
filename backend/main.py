@@ -2,7 +2,14 @@ import re
 import string
 from dotenv import load_dotenv
 import os
+from fastapi import FastAPI
 
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"message": "Backend running"}
+    
 load_dotenv()
 
 api_key = os.getenv("GEMINI_API_KEY")
