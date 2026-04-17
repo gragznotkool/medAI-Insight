@@ -1,0 +1,19 @@
+# Ignore environment variables
+.env
+.ENV
+*.env
+
+# Ignore Python
+venv/
+__pycache__/
+*.pyc
+
+# Ignore Node
+node_modules/
+dist/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
